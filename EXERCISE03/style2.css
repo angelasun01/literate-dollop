@@ -20,10 +20,12 @@ div {
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
     color: white
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 body {
-    background-color:rgb(250, 162, 144);
+    background-color:rgb(241, 196, 186);
 
 }
 

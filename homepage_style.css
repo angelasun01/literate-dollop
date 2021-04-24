@@ -31,10 +31,12 @@ h4 {
 }
 
 .links {
-    line-height: 1.3em;
+    line-height: 1.5em;
     font-size:12px;
     font-family: 'Montserrat', sans-serif;
     color: #fffefb
+    padding-right: 90px;
+    padding-left: 90px;
 }
 
 body {

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');  
+  
+.site{
+    width: 900px;
+    padding: 20px;
+}
 
 body{
 	line-height: 1.5;
@@ -7,10 +13,23 @@ body{
 	margin:0;
 	box-sizing: border-box;
 }
+
+.title {
+    color:#e4a9a9;
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5em;  
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
 .container{
 	max-width: 1170px;
 	margin:auto;
+    box-sizing: border-box;
+    display:flex;
 }
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -24,17 +43,22 @@ img{
 	width: 100%;
 	display: block;
 	min-height: 100vh;
-	background-color: #2a2932;
-	padding: 100px 0;
+	background-color: #ffffff;
+	padding: 0px 0;
 }
 .gallery .gallery-filter{
+    color:#696572;
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 1em;
 	padding: 0 15px;
 	width: 100%;
 	text-align: center;
 	margin-bottom: 20px;
 }
 .gallery .gallery-filter .filter-item{
-	color: #ffffff;
+	color: #565768;
 	font-size: 18px;
 	text-transform: uppercase;
 	display: inline-block;
@@ -42,11 +66,11 @@ img{
 	cursor: pointer;
 	border-bottom: 2px solid transparent;
 	line-height: 1.2;
-	transition: all 0.3s ease;
+	transition: all 0.5s ease;
 }
 .gallery .gallery-filter .filter-item.active{
-	color: #ff9800;
-	border-color : #ff9800;
+	color: #000000;
+	border-color : #00aaff;
 }
 .gallery .gallery-item{
 	width: calc(100% / 3);
@@ -84,3 +108,4 @@ img{
 		margin-bottom: 10px;
 	}
 }
+

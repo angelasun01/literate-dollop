@@ -73,7 +73,7 @@ img{
 	border-color : #00aaff;
 }
 .gallery .gallery-item{
-	width: calc(100% / 3);
+	width: calc(100% / 4);
 	padding: 15px;
 }
 .gallery .gallery-item-inner img{
